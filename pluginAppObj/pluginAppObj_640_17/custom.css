@@ -1,0 +1,808 @@
+
+
+
+#pluginAppObj_640_17{
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: bottom;
+    width: 400px;
+}
+
+#pluginAppObj_640_17_container{
+    width: 100%;
+    max-width: 400px;
+    background-color: transparent;
+    color:rgba(0, 0, 0, 1);
+    font-family: Times New Roman;
+    font-size: 10pt;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    box-sizing: border-box;
+     
+}
+
+#pluginAppObj_640_17_container .align-left{
+    text-align: left;   
+}
+
+#pluginAppObj_640_17_container .align-right{
+    text-align: right;
+}
+
+#pluginAppObj_640_17_container .align-center{
+    text-align: center;
+}
+
+#pluginAppObj_640_17_container .lineheight_onehalf{
+    line-height: 1.5;
+}
+
+#pluginAppObj_640_17_container .hidden {
+    display: none !important;
+}
+
+#pluginAppObj_640_17_container .clear{
+    clear:both;
+}
+
+#pluginAppObj_640_17_container .svg-icon svg{
+    fill: rgba(255, 255, 255, 1);
+}
+
+#pluginAppObj_640_17_container .svg-icon svg:active {
+   fill-opacity: 0.5;
+}
+
+#pluginAppObj_640_17_container .div_volume_on_off{
+    height: 10px;
+    width: 10px;
+    left: 5px;
+    left:  2px;
+    top: 55px;
+    top:  58px;
+    z-index: 101;
+    position: absolute;
+}
+
+#pluginAppObj_640_17_container .volume_on_off svg{
+    height: 10px !important;
+    width: 10px !important;
+    cursor:pointer;
+}
+
+#pluginAppObj_640_17_container .controls svg{
+    height: 14px;
+    width: 14px;
+    cursor:pointer;
+}
+
+#pluginAppObj_640_17_container .rew svg {
+   height: 14px;
+   width: 14px;
+   position: absolute;
+   top: 50%;
+   left: 5%;
+   margin-top: -7px;
+   margin-left: -7px;
+}
+
+#pluginAppObj_640_17_container .fwd svg {
+   height: 14px;
+   width: 14px;
+   position: absolute;
+   top: 50%;
+   left: 14%;
+   margin-top: -7px;
+   margin-left: -7px;
+}
+
+#pluginAppObj_640_17_container .loop svg {
+   height: 14px;
+   width: 14px;
+   position: absolute;
+   top: 50%;
+   left: 86%;
+   margin-top: -7px;
+   margin-left: -7px;
+}
+
+#pluginAppObj_640_17_container .mute svg {
+   height: 14px;
+   width: 14px;
+   position: absolute;
+   top: 50%;
+   left: 96%;
+   margin-top: -7px;
+   margin-left: -7px;
+}
+
+#pluginAppObj_640_17_container .play svg, #pluginAppObj_640_17_container .pause svg{
+    height: 32px;
+    width: 32px;
+    cursor:pointer;
+}
+
+#pluginAppObj_640_17_container .title_song{
+    font-weight: bold;
+    font-size: 11pt;
+    height: 18px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 100%;
+}
+
+#pluginAppObj_640_17_container .artist {
+    font-size: 10pt;
+    line-height: 150%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: initial;
+    min-height: 15pt;
+}
+
+#pluginAppObj_640_17_container .controls {
+    height: 20px;
+    width: 100%;
+}
+
+#pluginAppObj_640_17_container .controls .rew, #pluginAppObj_640_17_container .controls .fwd,#pluginAppObj_640_17_container .controls .loop,#pluginAppObj_640_17_container .controls .mute{
+    float: left;
+    height: 100%;
+    width: 10%;
+    cursor: pointer;
+}
+
+#pluginAppObj_640_17_container .hp_slide_classic{
+    height: 100%;
+    width: 58%;
+    position: relative;
+    display: inline; 
+}
+#pluginAppObj_640_17_container .hp_range{
+    width:0;
+    background: rgba(0, 0, 0, 1)
+    height: 14px;
+}
+
+#pluginAppObj_640_17_container .cover {
+    height: 135px;
+    width: 135px;
+    background-size: cover !important;
+    margin:  10px;
+}
+
+#pluginAppObj_640_17_container .cover-svg{
+    border: 1px solid;
+    padding-bottom: 5px;
+}
+
+#pluginAppObj_640_17_container .cover svg{
+    height: 135px;
+    width: 135px;
+}
+
+#pluginAppObj_640_17_container .container_play_title{
+    min-height: 20px;
+    position: relative;
+    top: 25%;
+}
+
+#pluginAppObj_640_17_container .container_play{
+    margin-right: 5px;
+}
+
+#pluginAppObj_640_17_container .container_title_album{
+    width: 77%;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+#pluginAppObj_640_17_container .player{
+    position: relative;
+    height: 135px;
+    width: calc(100% - 160px);
+}
+
+#pluginAppObj_640_17_container .container_controlli{
+    bottom: 0;
+    position: absolute;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#pluginAppObj_640_17_container .container_tracks{
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 0pt;
+    margin: 0 auto;
+    
+}
+
+#pluginAppObj_640_17_container .playlist div{
+    color:rgba(0, 0, 0, 1);
+    font-family: Times New Roman;
+    font-size: 10pt;
+    font-weight: normal;
+    font-style: normal;
+}
+#pluginAppObj_640_17_container .playlist{
+    color:rgba(0, 0, 0, 1);
+    font-family: Times New Roman;
+    font-size: 10pt;
+    font-weight: normal;
+    font-style: normal;
+}
+
+#pluginAppObj_640_17_container .playlist .single-track.active {
+    background-color: rgb(225,225,225);
+}
+
+#pluginAppObj_640_17_container .playlist .single-track {
+    padding: 0 5px 0px 5px;
+}
+
+#pluginAppObj_640_17_container .float-left {
+    float:left;
+    display:inline;
+}
+
+#pluginAppObj_640_17_container .float-right {
+    float:right;
+    display:inline;
+}
+
+#pluginAppObj_640_17_container .time{
+    text-align: right;
+}
+
+#pluginAppObj_640_17_container .title-song{
+    width: 30px;
+    cursor: pointer;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    text-align: left;
+    padding-left: 0px;
+}
+
+#pluginAppObj_640_17_container .download{
+    text-align: center;;
+    margin-left: 3px;    
+    min-width: 14px;  
+}
+
+#pluginAppObj_640_17_container .download svg{
+    cursor:pointer;
+    width: 14px;
+    height: 14px;
+    position: absolute !important; 
+    top: 0 !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    margin: auto !important;     
+}
+
+#pluginAppObj_640_17_container .my_download{
+    position: relative;
+    display: block;
+}
+
+#pluginAppObj_640_17_container .svg_deactivate{
+    fill-opacity: 0.5;
+}
+
+#pluginAppObj_640_17_container .audio-player-progress {
+    height: 6px;position: absolute;top: 50%;left: 0;margin-top: -2px;margin-left: 0px;  
+    cursor: pointer;
+    width: 100%;
+}
+
+#pluginAppObj_640_17_container .audio-player-bar {
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 1);
+    opacity: 0.2;
+}
+
+#pluginAppObj_640_17_container .audio-player-progress-bar {
+  -webkit-transition: width 200ms linear;
+  -moz-transition: width 200ms linear;
+  -o-transition: width 200ms linear;
+  transition: width 200ms linear;
+  display: block;
+  height: 100%;
+  width: 0;
+  max-width: 100%;
+  background-color: rgba(255, 255, 255, 1);
+  position: absolute;
+}
+
+#pluginAppObj_640_17_container .audio-player-buffer-bar {
+    -webkit-transition: width 200ms linear;
+    -moz-transition: width 200ms linear;
+    -o-transition: width 200ms linear;
+    transition: width 200ms linear;
+    display: block;
+    height: 100%;
+    width: 0;
+    max-width: 100%;
+    background-color: rgba(255, 255, 255, 1);
+    opacity: 0.3;
+}
+
+#pluginAppObj_640_17_container .ext-box{
+    position: relative;
+    height: 74px;
+    width: 18px;
+    z-index: 100;
+    top: -75px;
+    left:50%;
+}
+
+#pluginAppObj_640_17_container input[type=range].vVertical {
+    -webkit-appearance: none;
+    background-color: darkgrey;
+    width: 42px;
+    height: 6px;
+    top: 25px;
+    left: -14px;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    z-index: 101;
+    position: absolute;
+}
+@-moz-document url-prefix() { 
+    #pluginAppObj_640_17_container input[type=range].vVertical {
+        left: -22px;
+    }
+}
+
+@media all and (-ms-high-contrast:none)
+ {
+ #pluginAppObj_640_17_container input[type=range].vVertical {
+    background-color: transparent;
+    top:0px;
+    left: -19px;
+  }
+
+  #pluginAppObj_640_17_container .ext-box{
+      width: 19px !important; 
+  }
+}
+
+#pluginAppObj_640_17_container input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background-color: rgba(255, 255, 255, 1);
+    width: 7px;
+    height: 8px;
+}
+
+#pluginAppObj_640_17_container .blur-box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    background-color: rgb(225,225,225);
+    border-radius: 3px;
+}
+
+#pluginAppObj_640_17_container .marquee {
+  overflow: hidden;
+  position: relative;
+}
+
+#pluginAppObj_640_17_container .marquee .div_marquee {
+  height: 100%;
+  display: block;
+  width: 100%;
+  position: absolute;
+  overflow: hidden;
+}
+
+#pluginAppObj_640_17_container .marquee .div_marquee_animation {
+  animation: marquee 10s linear infinite;   
+  -webkit-animation: marquee 10s linear infinite;   
+  animation-delay: 2s;
+  -webkit-animation-delay: 2s;
+}
+
+
+#pluginAppObj_640_17_container .marquee .div_marquee_animation:hover {
+    -webkit-animation-play-state: paused; /* Safari 4.0 - 8.0 */
+    animation-play-state: paused;
+}
+
+
+#pluginAppObj_640_17_container .marquee .span_titolo {
+  float: left; 
+  height: 100%;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translate3d(0,0,0);
+        opacity: 1;
+    }
+    48% {
+        transform: translate3d(-100%,0,0);
+        opacity: 1;
+    }
+    49% {
+        transform: translate3d(-100%,0,0);
+        opacity: 0;
+    }
+    50% {
+        transform: translate3d(100%,0,0);
+        opacity: 0;
+    }
+    51% {
+        transform: translate3d(100%,0,0);
+        opacity: 1;
+    }
+    100% {
+        transform: translate3d(0,0,0);
+        opacity: 1;
+    }
+}
+@-webkit-keyframes marquee {
+    0% {
+        transform: translate3d(0,0,0);
+        opacity: 1;
+    }
+    48% {
+        transform: translate3d(-100%,0,0);
+        opacity: 1;
+    }
+    49% {
+        transform: translate3d(-100%,0,0);
+        opacity: 0;
+    }
+    50% {
+        transform: translate3d(100%,0,0);
+        opacity: 0;
+    }
+    51% {
+        transform: translate3d(100%,0,0);
+        opacity: 1;
+    }
+    100% {
+        transform: translate3d(0,0,0);
+        opacity: 1;
+    }
+}
+
+#pluginAppObj_640_17_container .cover_coverbackground > svg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height: 200px;
+    margin-top: -110px;
+    margin-left: -100px;
+}
+
+#pluginAppObj_640_17_container .hp_slide_coverbackground{
+    width:100%;
+    height:6px;
+}
+
+#pluginAppObj_640_17_container .controls_coverbackground_top{
+    width: 100%;
+    position: absolute;
+    top: 5px;
+}
+
+#pluginAppObj_640_17_container .controls_coverbackground{
+    height: 50px;
+    width: 80%;
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+#pluginAppObj_640_17_container .svg_play > svg, #pluginAppObj_640_17_container .svg_pause > svg {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+#pluginAppObj_640_17_container .svg_play > svg {
+    margin-left: -10px;
+    margin-top: -12px;
+}
+#pluginAppObj_640_17_container .svg_pause > svg {
+    margin-left: -12px;
+    margin-top: -11px;
+}
+
+#pluginAppObj_640_17_container  .rew_coverbackground, #pluginAppObj_640_17_container .play_coverbackground ,#pluginAppObj_640_17_container .fwd_coverbackground{
+    height: 100%;
+    width:33%;
+    float:left;
+}
+
+#pluginAppObj_640_17_container  .download_coverbackground, #pluginAppObj_640_17_container .loop_coverbackground ,#pluginAppObj_640_17_container .volume_coverbackground{
+    float:left;
+    text-align: right;
+}
+
+#pluginAppObj_640_17_container  .download_coverbackground{
+
+    width: 68%;
+    margin-left: 2%;
+    text-align: left;
+    visibility: hidden;
+}
+
+#pluginAppObj_640_17_container .loop_coverbackground ,#pluginAppObj_640_17_container .volume_coverbackground{
+   width: 14%;
+}
+
+#pluginAppObj_640_17_container .circle{ 
+    padding: 20px;
+    background:#BFBFBF;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    position: relative;
+    margin: 0 auto;
+    border: 1px solid transparent;
+}
+
+#pluginAppObj_640_17_container .svg_prev_next > svg{  
+    fill: rgba(255, 255, 255, 1);
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -7px;
+    margin-left: -7px;
+}
+
+#pluginAppObj_640_17_container .circle_top{ 
+    padding: 10px;
+    background:     #BFBFBF;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    position: relative;
+    border: 1px solid transparent;
+}
+
+#pluginAppObj_640_17_container  .circle:active, #pluginAppObj_640_17_container  .circle_top:active{
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+
+#pluginAppObj_640_17_container #pluginAppObj_640_17_LOOP{
+    
+}
+
+#pluginAppObj_640_17_container #pluginAppObj_640_17_MUTE{
+    
+}
+
+#pluginAppObj_640_17_container .svg_loop > svg, #pluginAppObj_640_17_container .svg_volume > svg, #pluginAppObj_640_17_container .svg_download > svg{
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -7px;
+}
+
+#pluginAppObj_640_17_container .svg_loop > svg, #pluginAppObj_640_17_container .svg_volume > svg{
+    margin-top: -7px;
+}
+
+#pluginAppObj_640_17_container .svg_download > svg{
+    margin-top: -6px;
+}
+
+#pluginAppObj_640_17_container .container_cover.container_coverback{
+    position: relative;
+    width: 100%;
+}
+
+#pluginAppObj_640_17_container .container_cover.container_coverback:before {
+    content: "";
+    display: block;
+    padding-top: 100%;
+}
+
+#pluginAppObj_640_17_container .cover_coverbackground {
+    background-size: cover !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+#pluginAppObj_640_17_container .container_blur{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    opacity: 0.5;
+    background: url('/') no-repeat scroll center top;
+    background-size: cover;
+}
+
+#pluginAppObj_640_17_container .container_cover_player{
+    position: relative;
+}
+
+#pluginAppObj_640_17_container .blur_effect{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    opacity: 0.5;
+    background-color: transparent;
+
+}
+
+#pluginAppObj_640_17_container .blur_effect_bar{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    background-size: cover;
+    opacity: 0.75;
+    background-color: transparent;
+}
+
+#pluginAppObj_640_17_container .super_container_cover_moderno, #pluginAppObj_640_17_container .bar_moderno{
+    position: relative;
+}
+
+#pluginAppObj_640_17_container .title_playlist_moderno{
+    width: calc(100% - 150px);   
+}
+
+#pluginAppObj_640_17_container .ccm {
+    height: 48px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#pluginAppObj_640_17_container .container_commmand_moderno{
+    width: 100%;
+    height: 24px;
+}
+
+.container_commmand_moderno > div {
+    position: relative;
+    height: 24px;
+}
+
+#pluginAppObj_640_17_container .hp_slide_moderno_container{
+    width: calc(100% - 173px);    
+}
+
+#pluginAppObj_640_17_container .hp_slide_moderno{
+    width: 100%;
+    height: 6px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-left: -4px;
+    margin-top: -3px;
+}
+
+#pluginAppObj_640_17_container .moderno_prev, #pluginAppObj_640_17_container .moderno_fwd,  #pluginAppObj_640_17_container .moderno_loop, #pluginAppObj_640_17_container .moderno_volume {
+    cursor: pointer;
+    margin-left: 2px;
+    width: 14px;
+    min-width: 14px;
+}
+
+#pluginAppObj_640_17_container .moderno_prev{
+    margin-left: 3px;
+}
+
+#pluginAppObj_640_17_container .moderno_volume {
+    margin-right: 3px;
+}
+
+#pluginAppObj_640_17_container .moderno_play,#pluginAppObj_640_17_container .moderno_pause  {
+    width: 24px;
+    min-width: 24px;
+    cursor: pointer;
+    margin-left: 2px;
+}
+
+#pluginAppObj_640_17_container .moderno_com > svg{
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -7px;
+    margin-left: -7px;
+}
+#pluginAppObj_640_17_container .moderno_com_play > svg,#pluginAppObj_640_17_container .moderno_com_pause > svg{
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -12px;
+    margin-left: -12px;
+}
+
+#pluginAppObj_640_17_container .moderno_current_time, #pluginAppObj_640_17_container .moderno_total_time {
+    width: 36px;
+    margin-right: 2px;
+    
+}
+#pluginAppObj_640_17_container .moderno_current_time{
+    
+}
+#pluginAppObj_640_17_container .moderno_total_time {
+    margin-left: 2px;
+}
+
+#pluginAppObj_640_17_container .moderno_current_time_span, #pluginAppObj_640_17_container .moderno_total_time_span {
+    height: 14px;
+    width: 36px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -8px;
+    margin-left: -18px;
+    font-size: 9pt;
+}
+
+#pluginAppObj_640_17_container .player_media {
+    position: relative !important;
+    height: 135px !important;
+    width: 100% !important;
+}
+
+#pluginAppObj_640_17_container .container_play_media {
+    margin-right: 5px !important;
+    margin-left: 5px !important;
+} 
+#pluginAppObj_640_17_container .container_cover_media {
+    width: 100% !important;
+}
+
+#pluginAppObj_640_17_container .title_playlist_moderno_media{
+    width: 100% !important;
+}

@@ -1,0 +1,14 @@
+#pluginAppObj_108_09 {
+    overflow: hidden;
+}
+
+#pluginAppObj_108_09_container {
+    box-sizing: border-box;
+    position: relative;
+    
+}
+
+#pluginAppObj_108_09_container form .input_img {
+    display: inline-block;
+    vertical-align: bottom;
+}

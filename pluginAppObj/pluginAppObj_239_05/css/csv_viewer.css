@@ -1,0 +1,70 @@
+#pluginAppObj_239_05 {
+	width: 100%;
+}
+.pluginAppObj_239_05-container {
+	overflow: auto;
+	height: 3600px;
+}
+
+.pluginAppObj_239_05-container .footable {
+  background: transparent;
+}
+
+#pluginAppObj_239_05 table {
+	-webkit-border-radius: 0; 
+	-moz-border-radius: 0; 
+	border-radius: 0;
+    border-collapse: collapse;
+}
+#pluginAppObj_239_05 table td {
+	vertical-align: top;
+	text-align: left;
+}
+/*#pluginAppObj_239_05 table thead tr{
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-topright: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+#pluginAppObj_239_05 table thead tr th:first-child{
+	-webkit-border-top-left-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	border-top-left-radius: 10px;
+}
+#pluginAppObj_239_05 table thead tr th:last-child{
+	-webkit-border-top-right-radius: 10px;
+	-moz-border-radius-topright: 10px;
+	border-top-right-radius: 10px;
+}
+#pluginAppObj_239_05 table tfoot tr {
+	-webkit-border-bottom-right-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-moz-border-radius-bottomright: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+#pluginAppObj_239_05 table tfoot tr td:first-child{
+	-webkit-border-bottom-left-radius: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	border-bottom-left-radius: 10px;
+}
+#pluginAppObj_239_05 table tfoot tr td:last-child{
+	-webkit-border-bottom-right-radius: 10px;
+	-moz-border-radius-bottomright: 10px;
+	border-bottom-right-radius: 10px;
+}*/
+#pluginAppObj_239_05 table tfoot tr td{
+    background-color: rgba(255, 255, 255, 1);
+    background-image: initial;
+}
+
+#pluginAppObj_239_05 table tfoot .pagination > ul > li > a {
+    color: rgba(0, 0, 0, 1);
+}
+#pluginAppObj_239_05 table tfoot .pagination > ul > .active > a {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(140, 140, 140, 1);
+}

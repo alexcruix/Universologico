@@ -1,0 +1,34 @@
+
+#pluginAppObj_666_02 {
+	width: 100%;
+}
+#pluginAppObj_666_02 .cd-headline {
+	display: block;
+	font-family: 'Times New Roman';
+	font-size: 24px;
+	line-height: 32px;
+	color: rgba(0, 0, 0, 1);
+	font-style: normal;
+	font-weight: bold;
+}
+
+#pluginAppObj_666_02 .cd-headline b,
+#pluginAppObj_666_02 .cd-headline i,
+#pluginAppObj_666_02 .cd-headline em {
+	
+	font-family: 'Times New Roman';
+	font-size: 24px;
+	line-height: 32px;
+	color: rgba(0, 48, 191, 1);
+	font-style: normal !important;
+	font-weight: bold;
+}
+
+/* Loading bar color */
+#pluginAppObj_666_02 .cd-headline.loading-bar .cd-words-wrapper::after {
+	background-color: rgba(0, 48, 191, 1);
+}
+
+#pluginAppObj_666_02 .cd-intro {
+	text-align: right;
+}

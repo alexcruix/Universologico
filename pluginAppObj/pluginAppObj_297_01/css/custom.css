@@ -1,0 +1,34 @@
+
+#pluginAppObj_297_01 {
+	width: 100%;
+}
+#pluginAppObj_297_01 .cd-headline {
+	display: block;
+	font-family: 'Arial';
+	font-size: 48px;
+	line-height: 56px;
+	color: rgba(0, 0, 0, 1);
+	font-style: normal;
+	font-weight: bold;
+}
+
+#pluginAppObj_297_01 .cd-headline b,
+#pluginAppObj_297_01 .cd-headline i,
+#pluginAppObj_297_01 .cd-headline em {
+	
+	font-family: 'Arial';
+	font-size: 48px;
+	line-height: 56px;
+	color: rgba(0, 0, 0, 1);
+	font-style: normal !important;
+	font-weight: bold;
+}
+
+/* Loading bar color */
+#pluginAppObj_297_01 .cd-headline.loading-bar .cd-words-wrapper::after {
+	background-color: rgba(0, 0, 0, 1);
+}
+
+#pluginAppObj_297_01 .cd-intro {
+	text-align: center;
+}

@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /admin
+Disallow: /captcha
+Disallow: /imemail
+
+Sitemap: http://www.universologico.com.br/sitemap.xml

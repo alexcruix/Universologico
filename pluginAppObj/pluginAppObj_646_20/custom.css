@@ -1,0 +1,363 @@
+
+
+#pluginAppObj_646_20_accordion_container{
+	display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+    box-sizing: border-box;
+    max-height: 600px;min-height: 600px;
+    width: 1000px;
+    max-width: 100%;
+    height: 100%;;
+}
+
+#pluginAppObj_646_20_accordion_container .accordion_title {
+    text-shadow: none;
+    font-family: Times New Roman;
+    font-size: 10pt;
+    font-weight: normal;
+    font-style: normal;
+	color: rgba(255, 0, 0, 1);
+    vertical-align: middle;
+    text-align: left;
+    cursor: pointer;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: left;
+    position: relative;
+    padding: 5px 0px;
+    display: flex;
+    justify-content: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
+	align-items: center;
+    flex-direction: row;
+    line-height: 130%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    flex-wrap: nowrap;
+}
+
+#pluginAppObj_646_20_accordion_container .accordion_title .accordion_title_text {
+    overflow: hidden;text-overflow: ellipsis;white-space: nowrap;
+}
+
+#pluginAppObj_646_20_accordion_container .accordion_desc {
+    text-shadow: none;
+    font-family: Times New Roman;
+    font-size: 10pt;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.2;
+    text-align: left;
+	color: rgba(64, 64, 64, 1);
+    vertical-align: middle;
+    overflow: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#pluginAppObj_646_20_accordion_container .accordion_el .accordion_desc.collapse {
+    display: none;
+}
+
+/**********************************************************/
+/************************* STYLE 1 ************************/
+/**********************************************************/
+#pluginAppObj_646_20_accordion_container.styleI .accordion_el {
+    overflow: hidden;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 2px;
+    background-color: rgba(255,255,255,1);
+    box-shadow: 0 1px 5px rgba(85, 85, 85, 0.15);
+}
+
+#pluginAppObj_646_20_accordion_container.styleI .accordion_el.lastchild {
+    margin-bottom: 0px;
+}
+
+#pluginAppObj_646_20_accordion_container.styleI .accordion_el .accordion_title {
+    padding: 15px;
+    box-sizing: border-box;
+    transition: background-color 0.4s;
+    background-color: rgba(255,255,255,1);
+}
+
+#pluginAppObj_646_20_accordion_container.styleI .accordion_el:hover .accordion_title {
+    background-color: rgba(235,235,235,1);
+}
+
+#pluginAppObj_646_20_accordion_container.styleI .accordion_el .accordion_title .accordion_title_text {
+    flex-grow: 1;
+}
+
+#pluginAppObj_646_20_accordion_container.styleI .accordion_el .accordion_desc {
+    background-color: rgb(0,0,0);;
+    padding: 15px;
+    box-sizing: border-box;
+}
+/**********************************************************/
+/*********************** END STYLE 1 **********************/
+/**********************************************************/
+
+
+/**********************************************************/
+/************************* STYLE 2 ************************/
+/**********************************************************/
+#pluginAppObj_646_20_accordion_container.styleII {
+	background-color: rgba(255,255,255,1);
+}
+
+#pluginAppObj_646_20_accordion_container.styleII .accordion_title {
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+#pluginAppObj_646_20_accordion_container.styleII .accordion_title .accordion_title_text {
+    overflow: hidden;   
+    text-overflow: ellipsis;   
+    white-space: nowrap;
+}
+
+#pluginAppObj_646_20_accordion_container.styleII .accordion_el {
+    overflow: hidden;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#pluginAppObj_646_20_accordion_container.styleII .accordion_el.lastchild {
+    margin-bottom: 0px;
+}
+
+#pluginAppObj_646_20_accordion_container.styleII .accordion_el .accordion_title {
+    padding: 15px;
+}
+
+#pluginAppObj_646_20_accordion_container.styleII .accordion_el.selected .accordion_title {
+    color: rgb(0,0,0);;
+}
+
+#pluginAppObj_646_20_accordion_container.styleII .accordion_title:after {
+    position: absolute;
+    content: '';
+    border-bottom: 1px solid;
+    border-color: rgba(255, 0, 0, 1);
+    width: 95%;
+    transform: translateX(-50%);
+    bottom: 15%;
+    left: 50%;
+}
+
+#pluginAppObj_646_20_accordion_container.styleII .accordion_el .accordion_title .accordion_title_text {
+    flex-grow: 8;
+}
+
+#pluginAppObj_646_20_accordion_container.styleII .accordion_el .accordion_title .accordion_title_icon {
+    flex-grow: 2;
+    margin: auto;
+    max-width: 23.94px;
+    min-width: 23.94px;
+}
+
+#pluginAppObj_646_20_accordion_container.styleII .accordion_el .accordion_desc {
+    padding: 15px;
+    box-sizing: border-box;
+}
+/**********************************************************/
+/*********************** END STYLE 2 **********************/
+/**********************************************************/
+
+
+/**********************************************************/
+/************************* STYLE 3 ************************/
+/**********************************************************/
+#pluginAppObj_646_20_accordion_container.styleIII .accordion_el {
+    padding: 15px;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border: 2px solid;
+    border-color: transparent;
+    cursor: pointer;
+    background-color: rgba(255,255,255,1);
+}
+
+#pluginAppObj_646_20_accordion_container.styleIII .accordion_el.lastchild {
+    margin-bottom: 0px;
+}
+
+#pluginAppObj_646_20_accordion_container.styleIII .accordion_el .accordion_title {
+    transition: color 0.4s;
+}
+
+#pluginAppObj_646_20_accordion_container.styleIII .accordion_el:hover .accordion_title {
+    color: rgb(225,30,30);
+}
+
+#pluginAppObj_646_20_accordion_container.styleIII .accordion_el .accordion_title .accordion_title_text {
+    flex-grow: 9;
+    width: 937px;
+}
+
+#pluginAppObj_646_20_accordion_container.styleIII .accordion_el .accordion_title .accordion_title_icon {   
+    flex-grow: 1;
+    transition-duration: 400ms;
+    text-align: center;
+}
+
+#pluginAppObj_646_20_accordion_container.styleIII .accordion_el .accordion_title .accordion_title_icon.opened {
+    transform: rotate3d(1, 0, 0, 180deg); 
+}
+
+#pluginAppObj_646_20_accordion_container.styleIII .accordion_el .accordion_title .accordion_title_icon svg {
+    width: 13.3px;
+    height: 13.3px;
+    fill: rgba(255, 0, 0, 1);
+    vertical-align: middle;
+}
+
+#pluginAppObj_646_20_accordion_container.styleIII .accordion_el:hover .accordion_title .accordion_title_icon svg {
+    fill: rgb(225,30,30);
+}
+
+/**********************************************************/
+/*********************** END STYLE 3 **********************/
+/**********************************************************/
+
+
+/**********************************************************/
+/************************* STYLE 4 ************************/
+/**********************************************************/
+#pluginAppObj_646_20_accordion_container.styleIIII {
+	background-color: rgba(255,255,255,1);
+}
+
+#pluginAppObj_646_20_accordion_container.styleIIII .accordion_el {
+    border-bottom: 1px solid;
+    border-color: rgb(235,20,20);
+    padding: 15px;
+    overflow: hidden;
+}
+
+#pluginAppObj_646_20_accordion_container.styleIIII .accordion_el.selected {
+	background-color: rgb(0,0,0);;
+    transition: background-color 800ms;
+}
+
+#pluginAppObj_646_20_accordion_container.styleIIII .accordion_el .accordion_title:hover {
+    color: rgb(235,20,20);
+}
+
+#pluginAppObj_646_20_accordion_container.styleIIII .accordion_el .accordion_title .accordion_title_text {
+    flex-grow: 9;
+    width: 937px;
+}
+
+#pluginAppObj_646_20_accordion_container.styleIIII .accordion_el .accordion_title .accordion_title_icon {
+    flex-grow: 1;
+    transition-duration: 400ms;
+    text-align: center;
+}
+
+#pluginAppObj_646_20_accordion_container.styleIIII .accordion_el .accordion_title .accordion_title_icon.opened {
+    transform: rotate3d(1, 0, 0, 180deg); 
+}
+
+#pluginAppObj_646_20_accordion_container.styleIIII .accordion_el .accordion_title .accordion_title_icon svg {
+    width: 13.3px;
+    height: 13.3px;
+    fill: rgba(255, 0, 0, 1);
+    vertical-align: middle;
+}
+
+#pluginAppObj_646_20_accordion_container.styleIIII .accordion_el .accordion_title:hover svg {
+    fill: rgb(235,20,20);
+}
+/**********************************************************/
+/*********************** END STYLE 4 **********************/
+/**********************************************************/
+
+
+
+/**********************************************************/
+/************************* STYLE 5 ************************/
+/**********************************************************/
+#pluginAppObj_646_20_accordion_container.styleIIIII .accordion_el {
+    padding: 15px;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border: 2px solid;
+    border-color: transparent;
+    transition: border 0.4s;
+    cursor: pointer;
+    background-color: rgba(255,255,255,1);
+}
+
+#pluginAppObj_646_20_accordion_container.styleIIIII .accordion_el.lastchild {
+    margin-bottom: 0px;
+}
+
+#pluginAppObj_646_20_accordion_container.styleIIIII .accordion_el.selected,
+#pluginAppObj_646_20_accordion_container.styleIIIII .accordion_el:hover {
+    border-color: rgb(0,0,0);;
+}
+
+#pluginAppObj_646_20_accordion_container.styleIIIII .accordion_el .accordion_title {
+    transition: color 0.4s;
+}
+
+#pluginAppObj_646_20_accordion_container.styleIIIII .accordion_el.selected .accordion_title,
+#pluginAppObj_646_20_accordion_container.styleIIIII .accordion_el:hover .accordion_title {
+    color: rgb(0,0,0);;
+}
+
+#pluginAppObj_646_20_accordion_container.styleIIIII .accordion_el .accordion_title .accordion_title_text {
+    flex-grow: 1;
+}
+/**********************************************************/
+/*********************** END STYLE 5 **********************/
+/**********************************************************/
+
+
+/**********************************************************/
+/************************* STYLE 6 ************************/
+/**********************************************************/
+#pluginAppObj_646_20_accordion_container.styleIIIIII .accordion_el {
+    padding: 15px;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border: 2px solid;
+    border-color: transparent;
+    transition: border 0.7s, background-color 0.7s;
+    cursor: pointer;
+    background-color: rgba(255,255,255,1);
+}
+
+#pluginAppObj_646_20_accordion_container.styleIIIIII .accordion_el.lastchild {
+    margin-bottom: 0px;
+}
+
+#pluginAppObj_646_20_accordion_container.styleIIIIII .accordion_el.selected,
+#pluginAppObj_646_20_accordion_container.styleIIIIII .accordion_el:hover {
+    border-left-color: rgb(0,0,0);;
+    background-color: rgba(235,235,235,1);
+}
+
+#pluginAppObj_646_20_accordion_container.styleIIIIII .accordion_title {
+    justify-content: flex-start;
+}
+
+#pluginAppObj_646_20_accordion_container.styleIIIIII .accordion_el .accordion_title .accordion_title_text {
+    flex-grow: 1;
+}
+/**********************************************************/
+/*********************** END STYLE 6 **********************/
+/**********************************************************/
